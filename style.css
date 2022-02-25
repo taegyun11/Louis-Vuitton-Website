@@ -1,0 +1,64 @@
+.btn-outline-success{
+    color: chocolate;
+    border-color: chocolate;
+  }
+  
+  .btn-outline-success:hover{
+    background-color: chocolate;
+    color:white;
+    border-color: chocolate;
+  }
+  
+  footer{
+    background-color: black;
+    color: white;
+    
+  }
+  
+  .first_line{
+    border-bottom: 1px solid #392d23;
+  }
+  
+  
+  
+  .second_line a{
+    color: white;
+    text-decoration: none;
+  
+  }
+  
+  .third_line{
+    display: none;
+  }
+  .card_title{
+      font-size: 1.125rem;
+  }
+  .card_body_text{
+      opacity: 50%;
+  }
+
+  .card_button{
+    color: black;
+  }
+
+  .card{
+      border: none;
+  }
+
+  @media screen and (max-width: 48rem){
+    .first_line{
+      text-align: center
+    }
+    .second_line{
+      padding-left:2rem;
+      padding-right: 2rem; 
+      border-bottom: 1px solid #392d23;
+    }
+    .third_line{
+      display: block;
+      text-align: center;
+      padding-top:2rem;
+      padding-bottom: 2rem;
+    }
+  
+  }
